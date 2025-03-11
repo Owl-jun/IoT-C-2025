@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "study_C", "study_C\study_C.vcxproj", "{DAC4A3CA-4232-4544-BDA5-2B1169A9C347}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAC4A3CA-4232-4544-BDA5-2B1169A9C347}.Debug|x64.ActiveCfg = Debug|x64
+		{DAC4A3CA-4232-4544-BDA5-2B1169A9C347}.Debug|x64.Build.0 = Debug|x64
+		{DAC4A3CA-4232-4544-BDA5-2B1169A9C347}.Debug|x86.ActiveCfg = Debug|Win32
+		{DAC4A3CA-4232-4544-BDA5-2B1169A9C347}.Debug|x86.Build.0 = Debug|Win32
+		{DAC4A3CA-4232-4544-BDA5-2B1169A9C347}.Release|x64.ActiveCfg = Release|x64
+		{DAC4A3CA-4232-4544-BDA5-2B1169A9C347}.Release|x64.Build.0 = Release|x64
+		{DAC4A3CA-4232-4544-BDA5-2B1169A9C347}.Release|x86.ActiveCfg = Release|Win32
+		{DAC4A3CA-4232-4544-BDA5-2B1169A9C347}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F35D6BB5-5E9C-4B34-AC11-50F5EB71C67F}
+	EndGlobalSection
+EndGlobal
