@@ -5,7 +5,6 @@ int main()
 	// --------------------------------------------------
 	{	// switch case 문을 알아보자.
 		{	
-			int ans = 3;
 			int flag = 1;
 			while (flag)
 			{

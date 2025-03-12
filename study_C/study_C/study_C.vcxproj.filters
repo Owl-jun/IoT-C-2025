@@ -30,5 +30,14 @@
     <ClCompile Include="main0312-2.c">
       <Filter>DAY02</Filter>
     </ClCompile>
+    <ClCompile Include="main0312-3.c">
+      <Filter>DAY02</Filter>
+    </ClCompile>
+    <ClCompile Include="calc.c">
+      <Filter>DAY02</Filter>
+    </ClCompile>
+    <ClCompile Include="gugu.c">
+      <Filter>DAY02</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
