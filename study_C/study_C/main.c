@@ -43,14 +43,20 @@ int main()
 	// -------------------------------------------------
 	{	// scanf 2
 		char str[20];
-		printf("이름을 입력하세요: ");
+		/*printf("이름을 입력하세요: ");
 		scanf_s("%s", str, sizeof(str));
 		printf("이름 : %s\n", str);
-		printf("나이를 입력하세요: ");
+		printf("나이를 입력하세요: ");*/
 		int age;
+		/*scanf_s("%d", &age);
+		printf("나이 : %d\n", age);*/
+
+		printf("나이를 입력하이소\n");
 		scanf_s("%d", &age);
-		printf("나이 : %d\n", age);
-		
+		printf("이름도 입력하이소\n");
+		scanf_s("%s", str, sizeof(str));
+
+		printf("나이 : %d , 이름 : %s", age, str);
 	}
 	// -------------------------------------------------
 

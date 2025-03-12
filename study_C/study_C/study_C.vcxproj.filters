@@ -16,10 +16,16 @@
     <Filter Include="DAY01">
       <UniqueIdentifier>{50adbdcb-5e16-4448-a51f-6bc18baeb6dc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DAY02">
+      <UniqueIdentifier>{99f7d21d-4376-4d7a-a6c6-467b4eb3e407}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
       <Filter>DAY01</Filter>
+    </ClCompile>
+    <ClCompile Include="main0312.c">
+      <Filter>DAY02</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
