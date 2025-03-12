@@ -45,6 +45,7 @@ int main()
 			// 입력 범위 초과 예외체크
 			if (flag > 100 || flag <= 0) { 
 				printf("잘못된 입력입니다."); 
+				while (getchar() != '\n');	// 갯마을 차차차
 				continue; 
 			}
 			// 승패 로직

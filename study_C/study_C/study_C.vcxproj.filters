@@ -27,5 +27,8 @@
     <ClCompile Include="main0312.c">
       <Filter>DAY02</Filter>
     </ClCompile>
+    <ClCompile Include="main0312-2.c">
+      <Filter>DAY02</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
