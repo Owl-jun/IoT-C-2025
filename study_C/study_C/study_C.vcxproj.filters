@@ -19,6 +19,9 @@
     <Filter Include="DAY02">
       <UniqueIdentifier>{99f7d21d-4376-4d7a-a6c6-467b4eb3e407}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DAY03">
+      <UniqueIdentifier>{5e7f1849-d150-46b9-94a7-5b79bdb9cd3e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -38,6 +41,45 @@
     </ClCompile>
     <ClCompile Include="gugu.c">
       <Filter>DAY02</Filter>
+    </ClCompile>
+    <ClCompile Include="main0313.c">
+      <Filter>DAY03</Filter>
+    </ClCompile>
+    <ClCompile Include="main0313-2.c">
+      <Filter>DAY03</Filter>
+    </ClCompile>
+    <ClCompile Include="exam0313.c">
+      <Filter>DAY03</Filter>
+    </ClCompile>
+    <ClCompile Include="main0313-3.c">
+      <Filter>DAY03</Filter>
+    </ClCompile>
+    <ClCompile Include="main0313-4.c">
+      <Filter>DAY03</Filter>
+    </ClCompile>
+    <ClCompile Include="main0313-5.c">
+      <Filter>DAY03</Filter>
+    </ClCompile>
+    <ClCompile Include="main0313-6.c">
+      <Filter>DAY03</Filter>
+    </ClCompile>
+    <ClCompile Include="main0313-7.c">
+      <Filter>DAY03</Filter>
+    </ClCompile>
+    <ClCompile Include="main0313-8.c">
+      <Filter>DAY03</Filter>
+    </ClCompile>
+    <ClCompile Include="main0313-9.c">
+      <Filter>DAY03</Filter>
+    </ClCompile>
+    <ClCompile Include="main0313-11.c">
+      <Filter>DAY03</Filter>
+    </ClCompile>
+    <ClCompile Include="main0313-10.c">
+      <Filter>DAY03</Filter>
+    </ClCompile>
+    <ClCompile Include="exam0313-1.c">
+      <Filter>DAY03</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

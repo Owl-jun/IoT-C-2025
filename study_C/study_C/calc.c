@@ -16,7 +16,7 @@ int main()
 		char oper;
 
 		// 입력버퍼 비우기
-		printf("계산기 프로그램입니다. 시작하려면 아무키나 입력.\n");
+		printf("계산기 프로그램입니다. 시작하려면 ENTER 키 입력.\n");
 		clear();
 
 		printf("두개의 정수를 입력하세요.\n");
