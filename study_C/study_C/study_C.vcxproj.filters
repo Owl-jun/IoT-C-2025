@@ -105,6 +105,27 @@
     <ClCompile Include="main0314-7.c">
       <Filter>DAY04</Filter>
     </ClCompile>
+    <ClCompile Include="main0314-8.c">
+      <Filter>DAY04</Filter>
+    </ClCompile>
+    <ClCompile Include="main0314-9.c">
+      <Filter>DAY04</Filter>
+    </ClCompile>
+    <ClCompile Include="main0314-10.c">
+      <Filter>DAY04</Filter>
+    </ClCompile>
+    <ClCompile Include="main0314-11.c">
+      <Filter>DAY04</Filter>
+    </ClCompile>
+    <ClCompile Include="main0314-12.c">
+      <Filter>DAY04</Filter>
+    </ClCompile>
+    <ClCompile Include="main0314-13.c">
+      <Filter>DAY04</Filter>
+    </ClCompile>
+    <ClCompile Include="main0314-14.c">
+      <Filter>DAY04</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="um.h">
