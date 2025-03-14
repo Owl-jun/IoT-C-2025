@@ -22,6 +22,9 @@
     <Filter Include="DAY03">
       <UniqueIdentifier>{5e7f1849-d150-46b9-94a7-5b79bdb9cd3e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DAY04">
+      <UniqueIdentifier>{904cf64d-b998-48aa-b9c3-d5271d379df6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -81,5 +84,31 @@
     <ClCompile Include="exam0313-1.c">
       <Filter>DAY03</Filter>
     </ClCompile>
+    <ClCompile Include="main0314-1.c">
+      <Filter>DAY04</Filter>
+    </ClCompile>
+    <ClCompile Include="main0314-2.c">
+      <Filter>DAY04</Filter>
+    </ClCompile>
+    <ClCompile Include="main0314-3.c">
+      <Filter>DAY04</Filter>
+    </ClCompile>
+    <ClCompile Include="main0314-4.c">
+      <Filter>DAY04</Filter>
+    </ClCompile>
+    <ClCompile Include="main0314-5.c">
+      <Filter>DAY04</Filter>
+    </ClCompile>
+    <ClCompile Include="main0314-6.c">
+      <Filter>DAY04</Filter>
+    </ClCompile>
+    <ClCompile Include="main0314-7.c">
+      <Filter>DAY04</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="um.h">
+      <Filter>DAY04</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
