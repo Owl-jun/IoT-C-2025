@@ -159,6 +159,12 @@
     <ClCompile Include="main0317-10.c">
       <Filter>DAY05</Filter>
     </ClCompile>
+    <ClCompile Include="main0317-11.c">
+      <Filter>DAY05</Filter>
+    </ClCompile>
+    <ClCompile Include="main0317-12.c">
+      <Filter>DAY05</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="um.h">

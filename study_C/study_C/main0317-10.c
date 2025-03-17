@@ -4,6 +4,7 @@
 typedef struct vision {
 	double left;
 	double right;
+
 }Vision;
 
 Vision exchange(Vision);
@@ -12,7 +13,7 @@ int main()
 {
 	Vision rot;
 	printf("좌, 우 시력 입력>> (ex: 1.2 1.5)\n");
-	scanf_s("%lf %lf", &rot.left, &rot.right);
+	scanf_s("%lf %lf", &(rot.left), &(rot.right));	
 
 	rot = exchange(rot);
 
