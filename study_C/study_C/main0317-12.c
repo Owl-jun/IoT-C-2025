@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 typedef struct addr {
 	char name[20];
 	int age;
@@ -20,6 +20,7 @@ int main()
 		{"辫技锐",39,"010-3339-3299","何魂堡开矫 合备"},
 		{"辫匙锐",49,"010-3339-3299","何魂堡开矫 合备"}
 	};
+	
 	int size = (sizeof(list) / sizeof(list[0]));
 	print_list(list,size);
 	
