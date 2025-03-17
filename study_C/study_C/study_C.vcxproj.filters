@@ -25,6 +25,9 @@
     <Filter Include="DAY04">
       <UniqueIdentifier>{904cf64d-b998-48aa-b9c3-d5271d379df6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DAY05">
+      <UniqueIdentifier>{817a6c78-1b51-4256-a7bc-7e1b8f5881d9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -125,6 +128,9 @@
     </ClCompile>
     <ClCompile Include="main0314-14.c">
       <Filter>DAY04</Filter>
+    </ClCompile>
+    <ClCompile Include="main0317-1.c">
+      <Filter>DAY05</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
