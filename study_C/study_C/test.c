@@ -38,9 +38,7 @@ int main()
     */
     int i_val = 100;
     float f_val = 3.14f;
-    char c_val = 'A';
-    
-    void* pVoid;
+    char c_val = 'A';  
 
     /*
     5. 포인터 배열을 활용하여 여러 개의 문자열을 출력해보시오.

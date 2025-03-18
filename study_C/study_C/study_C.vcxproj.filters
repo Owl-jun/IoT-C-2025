@@ -31,6 +31,9 @@
     <Filter Include="example">
       <UniqueIdentifier>{87c0ea46-8a58-46d1-aaa6-a03bce594b3d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DAY06">
+      <UniqueIdentifier>{9a41f231-9466-4458-bc86-93903b7816ad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -173,6 +176,12 @@
     </ClCompile>
     <ClCompile Include="test.c">
       <Filter>example</Filter>
+    </ClCompile>
+    <ClCompile Include="main0318.cpp">
+      <Filter>DAY06</Filter>
+    </ClCompile>
+    <ClCompile Include="main0318-1.cpp">
+      <Filter>DAY06</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
