@@ -34,6 +34,9 @@
     <Filter Include="DAY06">
       <UniqueIdentifier>{9a41f231-9466-4458-bc86-93903b7816ad}</UniqueIdentifier>
     </Filter>
+    <Filter Include="project1">
+      <UniqueIdentifier>{a8ef5cf0-7a82-40be-8d4a-e910e02efb8f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -221,6 +224,9 @@
     </ClCompile>
     <ClCompile Include="main0318-13.cpp">
       <Filter>DAY06</Filter>
+    </ClCompile>
+    <ClCompile Include="project.cpp">
+      <Filter>project1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
