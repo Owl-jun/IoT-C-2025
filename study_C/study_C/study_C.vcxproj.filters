@@ -258,6 +258,15 @@
     <ClCompile Include="main0319-7.cpp">
       <Filter>DAY07</Filter>
     </ClCompile>
+    <ClCompile Include="main0319-8.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-9.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-10.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="um.h">
