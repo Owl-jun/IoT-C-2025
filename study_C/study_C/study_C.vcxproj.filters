@@ -252,6 +252,12 @@
     <ClCompile Include="myclass3.cpp">
       <Filter>DAY07</Filter>
     </ClCompile>
+    <ClCompile Include="main0319-6.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-7.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="um.h">
