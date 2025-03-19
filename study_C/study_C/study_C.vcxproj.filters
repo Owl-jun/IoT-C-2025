@@ -37,6 +37,9 @@
     <Filter Include="project1">
       <UniqueIdentifier>{a8ef5cf0-7a82-40be-8d4a-e910e02efb8f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DAY07">
+      <UniqueIdentifier>{3695c0a0-6223-4b2a-b793-2433a4322c30}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -227,6 +230,27 @@
     </ClCompile>
     <ClCompile Include="project.cpp">
       <Filter>project1</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-1.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-2.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-3.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-4.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-5.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="myclass2.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="myclass3.cpp">
+      <Filter>DAY07</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
