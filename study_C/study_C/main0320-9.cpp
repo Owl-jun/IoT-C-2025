@@ -2,7 +2,7 @@
 
 class Human {
 private:
-	char name[10];
+	char name[10]; // C스타일 배열은 이동이 절대안됨.
 	int age;
 public:
 	void print() {
@@ -24,7 +24,12 @@ public:
 
 int main()
 {
-	Human h("홍길동", 30);
-	Human h3(std::move(h));	// move 는 return 값이 && 인 형변환 함수이다.
+	int a = 3;
+	int b = std::move(a);
+
+
+
+	a;
+	b;
 	return 0;
 }

@@ -9,6 +9,7 @@ public:
 		printf("생성자호출\n");
 		strcpy_s(this->name,20, name);
 		this->age = age;
+		strlen()
 	}
 	Person(const Person& _other)
 	{
