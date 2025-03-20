@@ -6,7 +6,7 @@ private:
 	int age;
 public:
 	void print() {
-		std::cout << name << age << std::endl;
+		std::cout << this->name << this->age << std::endl;
 	}
 public:
 	Human(const char* _name, int _age)
@@ -24,12 +24,10 @@ public:
 
 int main()
 {
-	int a = 3;
-	int b = std::move(a);
-
-
-
-	a;
-	b;
+	Human h("ȫ�浿", 30);
+	h.print();
+	Human h3(std::move(h));
+	h3.print();
+	h.print();
 	return 0;
 }
