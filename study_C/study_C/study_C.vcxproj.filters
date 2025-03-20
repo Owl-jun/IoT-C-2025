@@ -40,6 +40,9 @@
     <Filter Include="DAY07">
       <UniqueIdentifier>{3695c0a0-6223-4b2a-b793-2433a4322c30}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DAY08">
+      <UniqueIdentifier>{53fff667-3780-49d4-ba99-71628acb57ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -267,13 +270,19 @@
     <ClCompile Include="main0319-10.cpp">
       <Filter>DAY07</Filter>
     </ClCompile>
+    <ClCompile Include="main0320-1.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-2.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="um.h">
-      <Filter>DAY04</Filter>
-    </ClInclude>
     <ClInclude Include="scope.h">
       <Filter>DAY06</Filter>
+    </ClInclude>
+    <ClInclude Include="um.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
