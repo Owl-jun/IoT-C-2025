@@ -279,6 +279,24 @@
     <ClCompile Include="main0320-3.cpp">
       <Filter>DAY08</Filter>
     </ClCompile>
+    <ClCompile Include="main0320-4.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-5.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-6.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-7.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-8.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-9.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="scope.h">
