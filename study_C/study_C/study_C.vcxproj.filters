@@ -306,6 +306,12 @@
     <ClCompile Include="main0320-12.cpp">
       <Filter>DAY08</Filter>
     </ClCompile>
+    <ClCompile Include="main0320-13.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-14.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="scope.h">
