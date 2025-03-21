@@ -13,10 +13,8 @@ class BankApp {
 	int input;
 	bool flag = true;
 	int index = 0;
-	person_data pd[20];
-	person_data* new_Cust = new person_data;
-
-
+	std::vector<person_data*> datas;
+	
 	void withdraw() {
 		std::string findid;
 		int inputmoney;
@@ -60,14 +58,14 @@ class BankApp {
 	}
 
 	void c_account() {
-
+		person_data* new_Cust = new person_data;
 		std::cout << "계좌 ID: ";
 		std::cin >> new_Cust->id;
 		std::cout << "이름: ";
 		std::cin >> new_Cust->name;
 		std::cout << "입금액: ";
 		std::cin >> new_Cust->in_money;
-		index++;
+		datas.push_back(new_Cust);
 		
 	}
 
@@ -128,6 +126,5 @@ public:
 int main() {
 	BankApp app;
 	app.run();
-
 	return 0;
 }
