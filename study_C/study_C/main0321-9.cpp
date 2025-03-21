@@ -39,9 +39,12 @@ public:
 	}
 	Human& operator = (const Human& _other)
 	{
-		name = new char[strlen(_other.name) + 1];
-		strcpy_s(name, strlen(_other.name) + 1, _other.name);
-		age = _other.age;
+		if (this != &_other)
+		{
+			name = new char[strlen(_other.name) + 1];
+			strcpy_s(name, strlen(_other.name) + 1, _other.name);
+			age = _other.age;
+		}
 		return *this;
 	}
 };

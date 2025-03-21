@@ -342,6 +342,30 @@
     <ClCompile Include="main0321-9.cpp">
       <Filter>DAY09</Filter>
     </ClCompile>
+    <ClCompile Include="main0321-10.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-11.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-12.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-13.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-14.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-15.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-16.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-17.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="scope.h">
