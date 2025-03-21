@@ -37,6 +37,15 @@
     <Filter Include="project1">
       <UniqueIdentifier>{a8ef5cf0-7a82-40be-8d4a-e910e02efb8f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DAY07">
+      <UniqueIdentifier>{3695c0a0-6223-4b2a-b793-2433a4322c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DAY08">
+      <UniqueIdentifier>{53fff667-3780-49d4-ba99-71628acb57ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DAY09">
+      <UniqueIdentifier>{c166865f-36ad-4fa7-b2fa-63fcfbfc0beb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -228,13 +237,145 @@
     <ClCompile Include="project.cpp">
       <Filter>project1</Filter>
     </ClCompile>
+    <ClCompile Include="main0319-1.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-2.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-3.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-4.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-5.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="myclass2.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="myclass3.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-6.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-7.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-8.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-9.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0319-10.cpp">
+      <Filter>DAY07</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-1.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-2.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-3.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-4.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-5.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-6.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-7.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-8.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-9.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-10.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-11.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-12.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-13.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0320-14.cpp">
+      <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-1.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-2.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-3.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-4.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-5.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-6.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-7.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-8.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-9.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-10.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-11.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-12.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-13.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-14.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-15.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-16.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-17.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-18.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="um.h">
-      <Filter>DAY04</Filter>
-    </ClInclude>
     <ClInclude Include="scope.h">
       <Filter>DAY06</Filter>
+    </ClInclude>
+    <ClInclude Include="um.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

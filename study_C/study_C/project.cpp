@@ -1,12 +1,18 @@
+/*
+    Banking System Ver 0.2
+    ï¿½Û¼ï¿½ï¿½ï¿½ : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    ï¿½ï¿½  ï¿½ï¿½ : Account Å¬ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½è¿­ ï¿½ï¿½ï¿½ï¿½
+*/
+
 #include <iostream>
 #include <cstdlib>
 #include <vector>
 
-class person_data{
+class person_data {
 public:
-	std::string id;
-	std::string name;
-	int in_money;
+    std::string id;
+    std::string name;
+    int in_money;
 };
 
 class BankApp {
@@ -20,107 +26,99 @@ class BankApp {
 		int inputmoney;
 		person_data* select_Data = nullptr;
 
-		std::cout << "[Ãâ±Ý]" << std::endl;
-		std::cout << "°èÁÂ ID: ";
-		std::cin >> findid;
-		for (auto data : datas) {
-			if (findid == data->id)
-			{
-				select_Data = data;
-				break;
-			}
-		}
-		std::cout << "Ãâ±Ý¾×: ";
-		std::cin >> inputmoney;
-		select_Data->in_money -= inputmoney;
-		std::cout << "Ãâ±Ý¿Ï·á" << std::endl;
-	}
+    void deposit() {
+        std::string findid;
+        int inputmoney;
+        person_data* select_Data = nullptr;
 
-	void deposit() {
-		std::string findid;
-		int inputmoney;
-		person_data* select_Data = nullptr;
+        std::cout << "[ï¿½Ô±ï¿½]" << std::endl;
+        std::cout << "ï¿½ï¿½ï¿½ï¿½ ID: ";
+        std::cin >> findid;
+        for (auto data : datas) {
+            if (findid == data->id)
+            {
+                select_Data = data;
+                break;
+            }
+        }
+        std::cout << "ï¿½Ô±Ý¾ï¿½: ";
+        std::cin >> inputmoney;
+        select_Data->in_money += inputmoney;
+        std::cout << "ï¿½Ô±Ý¿Ï·ï¿½" << std::endl;
+    }
 
-		std::cout << "[ÀÔ±Ý]" << std::endl;
-		std::cout << "°èÁÂ ID: ";
-		std::cin >> findid;
-		for (auto data : datas) {
-			if (findid == data->id)
-			{
-				select_Data = data;
-				break;
-			}
-		}
-		std::cout << "ÀÔ±Ý¾×: ";
-		std::cin >> inputmoney;
-		select_Data->in_money += inputmoney;
-		std::cout << "ÀÔ±Ý¿Ï·á" << std::endl;
-	}
+    void c_account() {
+        person_data* new_Cust = new person_data;
+        std::cout << "ï¿½ï¿½ï¿½ï¿½ ID: ";
+        std::cin >> new_Cust->id;
+        std::cout << "ï¿½Ì¸ï¿½: ";
+        std::cin >> new_Cust->name;
+        std::cout << "ï¿½Ô±Ý¾ï¿½: ";
+        std::cin >> new_Cust->in_money;
+        datas.push_back(new_Cust);
 
 	void c_account() {
 		person_data* new_Cust = new person_data;
-		std::cout << "°èÁÂ ID: ";
+		std::cout << "ï¿½ï¿½ï¿½ï¿½ ID: ";
 		std::cin >> new_Cust->id;
-		std::cout << "ÀÌ¸§: ";
+		std::cout << "ï¿½Ì¸ï¿½: ";
 		std::cin >> new_Cust->name;
-		std::cout << "ÀÔ±Ý¾×: ";
+		std::cout << "ï¿½Ô±Ý¾ï¿½: ";
 		std::cin >> new_Cust->in_money;
 		datas.push_back(new_Cust);
 		
 	}
 
-	void printF() {
+        for (auto d : datas) {
+            std::cout << d->id << std::endl;
+            std::cout << d->name << std::endl;
+            std::cout << d->in_money << std::endl;
+            std::cout << std::endl;
+        }
 
-		for (auto d : datas) {
-			std::cout << d->id << std::endl;
-			std::cout << d->name << std::endl;
-			std::cout << d->in_money << std::endl;
-			std::cout << std::endl;
-		}
+    }
 
-	}
-
-	void menu() {
-			std::cout << "-----Menu-----" << std::endl;
-			std::cout << "1. °èÁÂ°³¼³" << std::endl;
-			std::cout << "2. ÀÔ    ±Ý" << std::endl;
-			std::cout << "3. Ãâ    ±Ý" << std::endl;
-			std::cout << "4. °èÁÂÁ¤º¸ ÀüÃ¼ Ãâ·Â" << std::endl;
-			std::cout << "5. ÇÁ·Î±×·¥ Á¾·á" << std::endl;
-			std::cin >> input;
-			std::cout << input;
-			system("cls");	
-	}
+    void menu() {
+        std::cout << "-----Menu-----" << std::endl;
+        std::cout << "1. ï¿½ï¿½ï¿½Â°ï¿½ï¿½ï¿½" << std::endl;
+        std::cout << "2. ï¿½ï¿½    ï¿½ï¿½" << std::endl;
+        std::cout << "3. ï¿½ï¿½    ï¿½ï¿½" << std::endl;
+        std::cout << "4. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½" << std::endl;
+        std::cout << "5. ï¿½ï¿½ï¿½Î±×·ï¿½ ï¿½ï¿½ï¿½ï¿½" << std::endl;
+        std::cin >> input;
+        std::cout << input;
+        system("cls");
+    }
 
 public:
-	void run(){
-		while (flag) 
-		{
-			menu();	
-			switch (input)
-			{
-			case 1:
-				c_account();
-				break;
-			case 2:
-				deposit();
-				break;
-			case 3:
-				withdraw();
-				break;
-			case 4:
-				printF();
-				break;
-			case 5:
-				flag = false;
-				break;
-			default:
-				std::cout << "Àß¸øµÈ ÀÔ·ÂÀÔ´Ï´Ù.";
-				break;
-			}
+    void run() {
+        while (flag)
+        {
+            menu();
+            switch (input)
+            {
+            case 1:
+                c_account();
+                break;
+            case 2:
+                deposit();
+                break;
+            case 3:
+                withdraw();
+                break;
+            case 4:
+                printF();
+                break;
+            case 5:
+                flag = false;
+                break;
+            default:
+                std::cout << "ï¿½ß¸ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ô´Ï´ï¿½.";
+                break;
+            }
 
-		}
-	}
+        }
+    }
 };
 
 int main() {
