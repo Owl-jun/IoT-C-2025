@@ -17,7 +17,7 @@ public:
 		std::cout << "name : " << name << " age : " << age << std::endl;
 	};
 public:
-	Human() { std::cout << "¾øÀ»¹«" << std::endl; }
+	Human() { std::cout << "default" << std::endl; }
 	Human(const char* _name, int _age)
 		: name(new char[strlen(_name) + 1])
 		, age(_age)
