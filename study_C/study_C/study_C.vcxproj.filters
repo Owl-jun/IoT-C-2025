@@ -43,6 +43,9 @@
     <Filter Include="DAY08">
       <UniqueIdentifier>{53fff667-3780-49d4-ba99-71628acb57ea}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DAY09">
+      <UniqueIdentifier>{c166865f-36ad-4fa7-b2fa-63fcfbfc0beb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -311,6 +314,24 @@
     </ClCompile>
     <ClCompile Include="main0320-14.cpp">
       <Filter>DAY08</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-1.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-2.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-3.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-4.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-5.cpp">
+      <Filter>DAY09</Filter>
+    </ClCompile>
+    <ClCompile Include="main0321-6.cpp">
+      <Filter>DAY09</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
