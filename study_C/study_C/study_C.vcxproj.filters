@@ -405,6 +405,18 @@
     <ClCompile Include="main0324-11.cpp">
       <Filter>DAY10</Filter>
     </ClCompile>
+    <ClCompile Include="main0324-12.cpp">
+      <Filter>DAY10</Filter>
+    </ClCompile>
+    <ClCompile Include="main0324-13.cpp">
+      <Filter>DAY10</Filter>
+    </ClCompile>
+    <ClCompile Include="main0324-14.cpp">
+      <Filter>DAY10</Filter>
+    </ClCompile>
+    <ClCompile Include="main0324-15.cpp">
+      <Filter>DAY10</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="scope.h">
