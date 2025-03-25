@@ -49,6 +49,9 @@
     <Filter Include="DAY10">
       <UniqueIdentifier>{270e27b3-d33c-4762-866f-2829280cccc7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DAY11">
+      <UniqueIdentifier>{f1ea4ca0-e32e-403f-af01-ab3bbd9969f5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -416,6 +419,57 @@
     </ClCompile>
     <ClCompile Include="main0324-15.cpp">
       <Filter>DAY10</Filter>
+    </ClCompile>
+    <ClCompile Include="main0325-1.cpp">
+      <Filter>DAY11</Filter>
+    </ClCompile>
+    <ClCompile Include="main0325-2.cpp">
+      <Filter>DAY11</Filter>
+    </ClCompile>
+    <ClCompile Include="main0325-3.cpp">
+      <Filter>DAY11</Filter>
+    </ClCompile>
+    <ClCompile Include="main0325-4.cpp">
+      <Filter>DAY11</Filter>
+    </ClCompile>
+    <ClCompile Include="main0325-5.cpp">
+      <Filter>DAY11</Filter>
+    </ClCompile>
+    <ClCompile Include="main0325-6.cpp">
+      <Filter>DAY11</Filter>
+    </ClCompile>
+    <ClCompile Include="main0325-7.cpp">
+      <Filter>DAY11</Filter>
+    </ClCompile>
+    <ClCompile Include="main0325-8.cpp">
+      <Filter>DAY11</Filter>
+    </ClCompile>
+    <ClCompile Include="main0325-9.cpp">
+      <Filter>DAY11</Filter>
+    </ClCompile>
+    <ClCompile Include="main0325-10.cpp">
+      <Filter>DAY11</Filter>
+    </ClCompile>
+    <ClCompile Include="main0325-11.cpp">
+      <Filter>DAY11</Filter>
+    </ClCompile>
+    <ClCompile Include="main0325-12.cpp">
+      <Filter>DAY11</Filter>
+    </ClCompile>
+    <ClCompile Include="main0325-13.cpp">
+      <Filter>DAY11</Filter>
+    </ClCompile>
+    <ClCompile Include="main0325-14.cpp">
+      <Filter>DAY11</Filter>
+    </ClCompile>
+    <ClCompile Include="main0325-15.cpp">
+      <Filter>DAY11</Filter>
+    </ClCompile>
+    <ClCompile Include="main0325-16.cpp">
+      <Filter>DAY11</Filter>
+    </ClCompile>
+    <ClCompile Include="dbconnect.cpp">
+      <Filter>example</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
